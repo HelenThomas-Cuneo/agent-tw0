@@ -1,6 +1,4 @@
-// Force rebuild at the top of the file.import React from 'react'
-
-function App() {
+export default function App( ) {
   return (
     <div style={{
       minHeight: '100vh',
@@ -9,15 +7,15 @@ function App() {
       alignItems: 'center',
       justifyContent: 'center',
       color: 'white',
-      fontFamily: 'Arial, sans-serif'
+      fontFamily: 'Arial, sans-serif',
+      margin: 0,
+      padding: '20px'
     }}>
       <div style={{ textAlign: 'center' }}>
-        <h1 style={{ fontSize: '4rem', marginBottom: '1rem' }}>🤖 Agent Two</h1>
-        <p style={{ fontSize: '1.5rem' }}>AI-Powered Task Management Platform</p>
+        <h1 style={{ fontSize: '4rem', marginBottom: '1rem', margin: 0 }}>🤖 Agent Two</h1>
+        <p style={{ fontSize: '1.5rem', margin: '1rem 0' }}>AI-Powered Task Management Platform</p>
         <p style={{ marginTop: '2rem', opacity: 0.8 }}>Successfully Deployed! 🚀</p>
       </div>
     </div>
   )
 }
-
-export default App

@@ -1,4 +1,4 @@
-import React from 'react'
+// Force rebuild at the top of the file.import React from 'react'
 
 function App() {
   return (
